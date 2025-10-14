@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas praktikum 3 web</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+</style>
+
+<body style="background-image: url(bg.png); ">
+
+    <!-- SECTION  1-->
+    <header style="padding: 18px; background-color: rgb(86, 86, 241); border-radius: 9px; opacity: 0.8; ">
+        <h1 style="text-align: center; color: white;">Mahasiswa Sistem Informasi</h1>
+        <p style="text-align: center; color: white;">jago IT &#128187; . suka coding . Berkarakter &#127793; </p>
+    </header>
+
+    <!-- SECTION 2 -->
+    <section style="background-color: white; margin: 12px; padding: 12px; border-radius: 12px; opacity: 0.9;">
+        <h1
+            style="color: black; font-size: 18px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            &#127909; HTML Images</h1>
+        <p
+            style="margin-top: 24px; font-size: 15px; color: black; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            Tag < img> digunakan untuk menampilkan gambar
+                dijadikan tautan. Contohnya;</p>
+        <div style="margin-top: 48px; display: flex; justify-content: center; align-items: center;">
+            <a href="https://www.w3schools.com/html/">
+                <img style="width: 300px; border-radius: 15px;" src="gambar1.png" alt="gambar 1">
+            </a>
+        </div>
+
+        <div
+            style="margin-top: 40px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            <p style="font-size: 15px; margin: 18px;">Contoh <b>gambar animasi (GIF)</b></p>
+            <div style="display: flex; justify-content: center; align-items: center;">
+                <img style="width: 500px; height: 300px; border-radius: 15px;"
+                    src="https://exampllee.vercel.app/assets/G02.gif" alt="gif ini brokkk">
+            </div>
+        </div>
+
+        <div
+            style="margin-top: 24px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            <p>Dan Berikut Penerapan <b>
+                    < picture>
+                </b> Element </p>
+            <picture style="display: flex; justify-content: center; margin-top: 20px;">
+                <img style="width: 250px; height: 250px; border-radius: 15px;"
+                    src="https://exampllee.vercel.app/assets/F13.jpg" alt="kucing abduh">
+            </picture>
+        </div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section style="background-color: white; margin: 12px; padding: 12px; border-radius: 12px; opacity: 0.9;">
+        <p
+            style="margin-top: 24px; font-size: 15px; color: black; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            &#127757; Image Map</p>
+
+        <div style="display: flex; justify-content: center; align-items: center; margin-top: 15px;">
+            <img src="gambar2.png" alt="Workplace" usemap="#workmap" style="border-radius: 12px; width: 400px;">
+
+            <map name="workmap">
+                <area shape="rect" coords="34,44,270,350" alt="Computer"
+                    href="https://www.w3schools.com/html/computer.htm">
+                <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+                <area shape="circle" coords="337,300,44" alt="Coffee" href="https://www.w3schools.com/html/coffee.htm">
+            </map>
+        </div>
+
+        <p
+            style="margin-top: 24px; font-size: 15px; color: black; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+            Coba Klik bagian Komputer atau Cangkir Kopi di gambar di atas !</p>
+
+
+    </section>
+
+    <section style="background-color: white; margin: 12px; padding: 12px; border-radius: 12px; opacity: 0.9;">
+        <div>
+            <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-top: 12px;">
+            &#128202; HTML Tables
+            </h1>
+            <p style="margin-top: 8px; margin-bottom: 8px;">Table digunakan untuk menampilkan data dan kolom:</p>
+
+            <table style="width: 100%; border: 1px solid black; border-collapse: collapse; text-align: center;">
+            <thead>
+                <tr style="background-color: #f0f0f0;">
+                <th colspan="3" style="border: 1px solid black; padding: 8px;">Data Mahasiswa SI</th>
+                </tr>
+                <tr>
+                <th style="border: 1px solid black; padding: 8px;">Nama</th>
+                <th style="border: 1px solid black; padding: 8px;">NIM</th>
+                <th style="border: 1px solid black; padding: 8px;">Minat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td style="border: 1px solid black; padding: 8px;">Fathur</td>
+                <td style="border: 1px solid black; padding: 8px;">0110122090</td>
+                <td style="border: 1px solid black; padding: 8px;">Web Development</td>
+                </tr>
+                <tr>
+                <td style="border: 1px solid black; padding: 8px;">Riyan</td>
+                <td style="border: 1px solid black; padding: 8px;">0110122091</td>
+                <td style="border: 1px solid black; padding: 8px;">UI/UX Design</td>
+                </tr>
+                <tr style="background-color: #f9f9f9;">
+                <td colspan="3" style="border: 1px solid black; padding: 8px;"><b>Jumlah Mahasiswa Aktif: 2</b></td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- # section 5 -->
+    <section style="background-color: white; margin: 12px; padding: 12px; border-radius: 12px; opacity: 0.9;">
+        <div>
+            <h1 style="margin-top: 12px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"> &#128203; HTML List</h1>
+            <p style="margin-top: 8px; margin-bottom: 8px;"><b> Unordered List (Daftar tanpa urutan):</b></p>
+            <div style="padding:15px;">
+                <ul>
+                    <li>Analisis sistem</li>
+                    <li>Desain data base</li>
+                    <li>pemograman web</li>
+                </ul>
+            </div>
+            <p style="margin-top: 8px; margin-bottom: 8px;"><b> Ordered List(Daftar Berurutan)</b></p>
+            <div style="padding:15px; text-decoration: none">
+                <ul style="list-style-type: decimal;">
+                    <li>Belajar HTML</li>
+                    <li>Belajar CSS</li>
+                    <li>Belajar Javascript</li>
+                </ul>
+            </div>
+            <h3 style="font-size: 20px; font-weight: bold;">Description List</h3>
+            <!-- html -->
+            <h3 style="font-weight: bold; margin-top: 8px;">HTML</h3>
+            <p style="padding: 12px;">Bahasa Untuk membuat sturuktur web</p>
+            <!-- CSS -->
+            <h3 style="font-size: 20px; font-weight: bold;">CSS</h3>
+            <p style="padding: 12px;">Bahasa untuk memperintah tampilan web</p>
+            <!-- JS -->
+            <h3 style="font-size: 20px; font-weight: bold;">Java script</h3>
+            <p style="padding: 12px;">Bahasa untuk membantu membuat web interaktif</p>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer style="background-color: rgb(86, 86, 241); border-radius: 12px; opacity: 0.9;">
+        <div style="padding: 18px; display: flex; justify-content: center; align-items: center;">
+            <p style="color: white; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">@ 2025 STT Nurul Fikri -- Jago IT, Berakter</p>
+        </div>
+    </footer>
+</body>
+
+</html>
