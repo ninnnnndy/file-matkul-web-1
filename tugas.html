@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background-color: #fcfeff;
+      color: #222;
+    }
+
+    /* HEADER */
+    header {
+      background-color: #355485;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    /* NAV */
+    nav {
+      background-color: #4f90c6;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* LAYOUT */
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 20px auto;
+      overflow: auto;
+    }
+
+    section {
+      float: left;
+      width: 68%;
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 16px;
+      box-sizing: border-box;
+    }
+
+    aside {
+      float: right;
+      width: 28%;
+      background-color: #cbdde9;
+      border: 1px solid #bbb;
+      border-radius: 8px;
+      padding: 16px;
+      box-sizing: border-box;
+    }
+
+    h2 {
+      color: #355485;
+      margin-top: 0;
+    }
+
+    article img {
+      width: 100%;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+
+    /* TABEL DATA */
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 12px 0;
+    }
+
+    th,
+    td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f1f5f9;
+    }
+
+    /* IFRAME */
+    iframe {
+      width: 100%;
+      height: 250px;
+      border: 1px solid #999;
+      border-radius: 6px;
+    }
+
+    /* FOOTER */
+    footer {
+      clear: both;
+      background-color: #355485;
+      color: white;
+      text-align: center;
+      padding: 14px 0;
+      margin-top: 20px;
+    }
+
+    footer a {
+      color: #cbdde9;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* RESPONSIVE SEDIKIT */
+    @media (max-width: 768px) {
+
+      section,
+      aside {
+        float: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>portal Fulan-Berita coding Lucu Tapi keren &#128524; &#128187;</h1>
+    <p>"Dimana bug bukan musuh,tapi guru kehidupan."</p>
+    <nav>
+      <a href="#Berita utama">Berita utama</a>
+      <a href="#Fakta unik">Fakta unik</a>
+      <a href="#vidio & inframe">vidio & inframe</a>
+      <a href="#kontak redaksi">kontak redaksi</a>
+    </nav>
+  </header>
+
+  <main style="margin-top: 18px;">
+    <aside id="aside">
+      <h2><b>Fakta unik tentang Fulan</b></h2>
+      <ul>
+        <li>Ngoding pake mode gelap di siang Bolong</li>
+        <li>Punya 7 Repostry bernama <i>final-final-v3</i></li>
+        <li>Pernah Rename jadi " fix beneran terakhir."</li>
+      </ul>
+
+      <h1 style="font-size: 20px;">jadwal kegiatan harian</h1>
+      <table>
+        <tr>
+          <th>Waktu</th>
+          <th>kegiatan</th>
+        </tr>
+        <tr>
+          <td>00:09</td>
+          <td>kelas pemograman web</td>
+        </tr>
+        <tr>
+          <td>13:00</td>
+          <td>Ngopi sambil baca dokumentasi</td>
+        </tr>
+        <tr>
+          <td>21:00</td>
+          <td>Debug sampai lupa waktu</td>
+        </tr>
+      </table>
+    </aside>
+
+    <div id="konten">
+      <!-- menu 1 -->
+      <section id="Berita utama">
+        <h1>Fulan Tertangkap Basah Jam 3 Pagi Demi Push ke GitHup</h1>
+        <img src="giffff.gif" />
+        <p>
+          <b>Jakarta,Portal Fulan </b>-Warga sekitar dikejutkan dengan suara
+          ketikan keyboard yang tak kunjung berhenti.setelah di selidiki,
+          ternyata sumber suara berasal dari kamar Fulan yang sedang
+          men-deploy projek-nya ke vercel.
+        </p>
+        <p>
+          "Aku cuma mau pastiin web-nya responsif sebelum tidur,"ujar Fulan
+          sambil menyeruput kopi dingin yang udah cair dari jam 10 malam.
+        </p>
+        <p>
+          menurut pengetahuan sangsi , Fulan sudah tiga malam tidak tidur
+          gara-gara memperbaiki eror
+          <small>vite-pluging -pwa missing .</small>
+          Namun akhir nya ,projek berlangsung jalan dan langsung mendapat 5
+          &#11088; Di GitHup dari teman satu kos.
+        </p>
+      </section>
+
+      <section id="Fakta unik">
+        <h1>Fakta Coding Fulan :</h1>
+        <ul>
+          <li>suka debugging sambil dengerin musik anime &#127911;</li>
+          <li>pernah typo <i>console.lag</i></li>
+          <li>Setiap error dianggap "ujian terhadap sintaks "</li>
+        </ul>
+
+        <h1>Top 3 Error paling sering ditemui</h1>
+        <ol>
+          <li>missing semicolon (;) setelah jam 2 pagi</li>
+          <li>path image gak terbaca di deploy</li>
+          <li>"cannot read property 'undefined" ofundefined"- klasik!</li>
+        </ol>
+
+        <h1>Daftar Konsumsi Lembur Fulan</h1>
+        <table>
+          <tr>
+            <th>No</th>
+            <th>Menu</th>
+            <th>Jam konsusi</th>
+            <th>status</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>kopi tubruk</td>
+            <td>22:00</td>
+            <td>habis</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Mie Goreng instan</td>
+            <td>00:30</td>
+            <td>pending (kegigit error)</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Roti sobek</td>
+            <td>02:00</td>
+            <td>belum disentuh</td>
+          </tr>
+        </table>
+
+        <h2>Dan inilah motto hidup :</h2>
+        <div>
+          <p>
+            "kalau coding gagal,bukan berarti kamu gagal.mungkin belum di save"
+          </p>
+        </div>
+
+        <div>
+          <section id="vidio & inframe">
+          <h1>Belajar HTML Langsung Dari Sumbernya</h1>
+          <p>Berikut cuplikan situs belajar faforit Fulan:</p>
+          <iframe src="https://www.petanikode.com/" title="cotoh"></iframe>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p id="kontak redaksi">
+      hubungi redaksi :
+      <a href="redaksi@portalfun.id">redaksi@portalfun.id</a>
+    </p>
+    <p><a href="#Berita utama">⬆️ Kembali keatas</a></p>
+    <p>&#169; 2025 portal Fulan-semua bug milik bersama &#128030;</p>
+    </p>
+  </footer>
+</body>
+
+</html>
